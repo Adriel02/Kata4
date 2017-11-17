@@ -29,6 +29,7 @@ public class Kata4 {
 
     private void output(){
         HistogramDisplay histoDisplay= new HistogramDisplay(histogram);
+        histoDisplay.execute();
     }
 
     private void execute() throws IOException {
